@@ -3,7 +3,7 @@ import { RedocStandalone } from "redoc";
 
 export default function RedoxPage() {
   return (
-    <div className='min-h-screen p-0 m-0 mt-[50px] md:mt-[60px]'>
+    <div className='min-h-screen p-0 m-0'>
       <RedocStandalone
         specUrl='/openapi.yaml'
         options={{
